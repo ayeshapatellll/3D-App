@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: "cocaColaFont";
+    src: url("../fonts/LOKICOLA.TTF");
+}
+
+.main_contents {    
+    margin-top: 10px;    
+    margin-bottom: 10px;
+}
+
+body {    
+    background-color: #ffe6e6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* CSS rule to style the mobile logo */
+.logo {
+    margin-top: 10px;
+}
+.logo h1 {
+    font-family: cocaColaFont; 
+    /* You don't need to repeat this for each media query as it is propagated */
+    font-size: 30px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 30px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+.logo h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+.logo p {
+    font-size: 10px;
+    /* You may have to tweak this to get a good fit */
+    margin-top: 22px;
+    /* You may have to tweak this to get a good fit */
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+
+/* New CSS rules to better position the navbar and increase its height, 
+Bootstrap defaults tend to make your site look like a Bootstrap clone! */
+/* CSS rule to overwrite the navbar background and border color — again, 
+helps to stop your site looking like a Bootstrap clone! */
+.navbar_coca_cola {    
+    background-color: #ff3333; /* Set navbar background color */    
+    /* border-color: yellow; Sets the navbar border color */    
+    /* border-style: solid; */
+    border-width: 0px;    
+    min-height: 50px;
+}
+/* CSS rule to overwrite the navbar-brand font color*/
+.navbar_coca_cola .navbar-brand {    
+    color: whitesmoke;
+}
+/* CSS rule to overwrite the navbar-brand font hover color*/
+.navbar_coca_cola .navbar-brand:hover {    
+    color: #003cb3;
+}
+
+/* NAVIGATION MENU*/
+/* CSS rules to overwrite the position of the Bootstrap menu. 
+These are derived from theBootstrapbay Bootstrap Tutorial Part 11 —
+ CSS Modifications to Navbar and Buttons shows how to do this using Bootstrap 3, 
+ the principle should be the same: https://www.youtube.com/watch?v=7v2yC3GyDHU   
+ There is plenty more styling to do than indicated here, in mobile it still defaults to Bootstrap 
+ CSS on dropdown!*/
+.navbar_coca_cola .navbar-nav > li > a {
+    color: whitesmoke;
+}
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar*/
+.navbar_coca_cola .navbar-nav > li > a:hover, .navbar_coca_cola .navbar-nav > li > a:focus {    
+    color: #003cb3;
+}
+.navbar_coca_cola .navbar-nav .nav-item {    
+    margin-top: 0px;
+}
+/* CSS rule to overwrite the bootstrap.css rules for setting the active font color and background colour*/
+.navbar_coca_cola .navbar-nav .nav-item > .active, .navbar_coca_cola .navbar-nav > .active > a:hover, 
+.navbar_coca_cola .navbar-nav > .active > a:focus {    
+    color:  #ff3333; /* Font color for active font */    
+    background-color: whitesmoke; /* Blue color for background */
+}
+/* A set of CSS rules to change the Bootstrap defaults for the menu link text color, hover, background, focus*/
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar*/
+.navbar_coca_cola .navbar-nav > li > a:hover, .navbar_coca_cola  .navbar-nav > li > a:focus {    
+    color: #003cb3;  
+}
+
+/* These next two CSS rules control the style of the icon bar */
+.navbar_coca_cola .navbar-toggler {    
+    border-color: white;
+}
+
+.navbar_coca_cola .navbar-toggler {    
+    outline: none !important;
+}
+
+.navbar-text > a {        
+    font-size: 10px;    
+}    
+.navbar-text > p {        
+    color: rgb(255, 255, 255);
+    font-size: 14px;        
+    text-decoration: none;    
+}  
+
+/* Lifted form the bootsrap.css file, and modified to emulate the nav-bar menu styling */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {    
+    color:  #ff3333; /* Font color for active font */    
+    background-color: #3399ff; /* Blue color for background */    
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+    color: black;      
+	font-size: 20px;
+    border: 1px black;    
+    border-top-left-radius: 0.25rem;    
+    border-top-right-radius: 0.25rem;
+}
+
+/* Added this to emulate the nav-bar link styling */
+.nav-tabs .nav-link:hover {    
+    color: blue;    
+    border: 1px black;
+}
+
+.inter-regular {
+    font-family: 'Inter', sans-serif;
+}
+
+.inter-bold {
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+}
+
+.inter-black {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+
+.nav-item, .dropdown-item {
+    font-size: 0.75rem;
+}
+
+.navbar-toggler {
+    border: 0px solid transparent;
+    padding: 0.1rem 0.1rem;
+    color: lightgray !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.05rem;
+}
+
+.border {
+    border: 1px solid black !important
+}
+
+.border-white {
+    border: 1px solid white !important
+}
+
+.bg-main-img {
+    background-image: url('../assets/images/site_images/main_3D.jpg');
+}
+
+.text-white {
+    color: #f8f8f2;
+}
+
+.model3D  {
+    background-color: rgba(255, 255, 255, 0.2); 
+    height: 30vmax;
+}
+
+X3D, x3d {
+    width: 100%;
+    height: 100%
+}
+
+.dashed {
+    border-bottom: 1px dashed rgba(0, 0, 0, 1.0);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.dashed-white {
+    border-bottom: 1px dashed rgba(255, 255, 255, 1.0);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.border-side {
+    border-right: 1px solid rgba(216, 216, 216, 0.25);
+}
+
+.strap_under {
+    font-size: 0.5rem;
+}
+
