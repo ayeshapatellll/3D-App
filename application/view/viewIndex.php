@@ -214,7 +214,7 @@
 				<p>https://github.com/ccampbell/chromephp/blob/master/ChromePhp.php</p>
 				<p>https://benskitchen.com</p>
 				<h6>GitHub:</h6>
-				<p>https://github.com/aurora-dot/Web-3D-Assignment</p>
+				<p>https://github.com/ayeshapatellll/3D-App</p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
