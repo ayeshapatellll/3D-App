@@ -213,6 +213,11 @@
 				<h6>References:</h6>
 				<p>https://github.com/ccampbell/chromephp/blob/master/ChromePhp.php</p>
 				<p>https://benskitchen.com</p>
+				<h6>Statement of Originality:</h6>
+				<p>These web pages are submitted as part requirement for the degree of BSc.Computer Science & Artifical Intelligence(with an Industrial Placement year)
+				   at the University of Sussex. They are product 
+				   of my own labour except where indicated in the web page content. These web pages or contents may be freely copied
+				   and distributed provided the source is acknowledged.</p>
 				<h6>GitHub:</h6>
 				<p>https://github.com/ayeshapatellll/3D-App</p>
 			</div>
